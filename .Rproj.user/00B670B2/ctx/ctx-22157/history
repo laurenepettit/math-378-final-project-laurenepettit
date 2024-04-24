@@ -198,3 +198,22 @@ reticulate::repl_python()
 renv::status()
 install.packages("reticulate")
 load("C:/Users/cadet_admin/OneDrive - afacademy.af.edu/Documents/math-378-final-project-laurenepettit/.RData")
+renv::activate()
+library(palmerpenguins)
+library(dplyr)
+library(ggplot2)
+df <- palmerpenguins::penguins
+df %>%
+group_by(species, sex) %>%
+summarise(
+across(
+where(is.numeric),
+\(x) mean(x, na.rm = TRUE)
+)
+) %>%
+knitr::kable()
+df %>%
+ggplot(aes(x = bill_length_mm, y = body_mass_g, color = species)) +
+geom_point() +
+geom_smooth(method = "lm")
+install.packages("reticulate")

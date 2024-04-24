@@ -5,7 +5,7 @@
 [1,"[1/4] Installing png...\r\n"]
 [1,"\r\n"]
 [1,"Traceback (most recent calls last):\r\n"]
-[1,"18: .rs.sourceWithProgress(script = \"C:/Users/CADET_~1/AppData/Local/Temp/8c69-c2ff-c69f-5508\", \r\n"]
+[1,"18: .rs.sourceWithProgress(script = \"C:/Users/CADET_~1/AppData/Local/Temp/36f0-14ef-c484-9a5d\", \r\n"]
 [1,"        encoding = \"UTF-8\", con = stdout(), importRdata = NULL, exportRdata = NULL)\r\n"]
 [1,"17: eval(statements[[idx]], envir = globalenv())\r\n"]
 [1,"16: eval(statements[[idx]], envir = globalenv())\r\n"]
