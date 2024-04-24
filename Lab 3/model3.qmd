@@ -26,17 +26,17 @@ from sklearn import preprocessing
 ## Define Model and Fit
 
 ```{python}
-X = get_dummies(df[['bill_length_mm', 'species', 'sex']], drop_first = True)
-y = df['body_mass_g']
+#X = get_dummies(df[['bill_length_mm', 'species', 'sex']], drop_first = True)
+#y = df['body_mass_g']
 
-model = LinearRegression().fit(X, y)
+#model = LinearRegression().fit(X, y)
 ```
 
 ## Get some information
 
 ```{python}
-print(f"R^2 {model.score(X,y)}")
-print(f"Intercept {model.intercept_}")
-print(f"Columns {X.columns}")
-print(f"Coefficients {model.coef_}")
+#print(f"R^2 {model.score(X,y)}")
+#print(f"Intercept {model.intercept_}")
+#print(f"Columns {X.columns}")
+#print(f"Coefficients {model.coef_}")
 ```
