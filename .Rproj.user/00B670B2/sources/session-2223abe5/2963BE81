@@ -16,16 +16,28 @@
         "Source": "Source",
         "docOutlineVisible": "0",
         "rmdVisualCollapsedChunks": "",
+<<<<<<< Updated upstream
         "rmdVisualModeLocation": "1044:1912.6666259765625",
+=======
+        "rmdVisualModeLocation": "1241:4372.66650390625",
+>>>>>>> Stashed changes
         "cursorPosition": "75,0",
         "scrollLine": "0"
     },
     "folds": "",
+<<<<<<< Updated upstream
     "lastKnownWriteTime": 1713997091,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
     "last_content_update": 1713997091947,
+=======
+    "lastKnownWriteTime": 1713996618,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1713996618840,
+>>>>>>> Stashed changes
     "read_only": false,
     "read_only_alternatives": []
 }
