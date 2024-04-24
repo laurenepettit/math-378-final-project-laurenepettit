@@ -1,0 +1,26 @@
+{
+    "id": "35399BD9",
+    "path": "~/math-378-final-project-laurenepettit/Lab 6/Dockerfile",
+    "project_path": "Lab 6/Dockerfile",
+    "type": "dockerfile",
+    "hash": "3397501281",
+    "contents": "",
+    "dirty": false,
+    "created": 1713993134113.0,
+    "source_on_save": false,
+    "relative_order": 4,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "2,15",
+        "scrollLine": "0"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1713993189,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1713993189015,
+    "read_only": false,
+    "read_only_alternatives": []
+}
