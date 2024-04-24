@@ -126,6 +126,41 @@
     "text": "Penguin Size vs Mass by Species\n\n\nCode\ndf %&gt;%\n  ggplot(aes(x = bill_length_mm, y = body_mass_g, color = species)) +\n  geom_point() + \n  geom_smooth(method = \"lm\")\n\n\n`geom_smooth()` using formula = 'y ~ x'\n\n\nWarning: Removed 2 rows containing non-finite values (`stat_smooth()`).\n\n\nWarning: Removed 2 rows containing missing values (`geom_point()`)."
   },
   {
+    "objectID": "Lab 1/eda1.html#penguin-bill-vs-flipper-length-by-species",
+    "href": "Lab 1/eda1.html#penguin-bill-vs-flipper-length-by-species",
+    "title": "Penguins EDA",
+    "section": "Penguin Bill vs Flipper Length by Species",
+    "text": "Penguin Bill vs Flipper Length by Species\n\n\nCode\ndf %&gt;%\n  ggplot(aes(x = bill_length_mm, y = flipper_length_mm, color = species)) +\n  geom_point() + \n  geom_smooth(method = \"lm\")\n\n\n`geom_smooth()` using formula = 'y ~ x'\n\n\nWarning: Removed 2 rows containing non-finite values (`stat_smooth()`).\n\n\nWarning: Removed 2 rows containing missing values (`geom_point()`)."
+  },
+  {
+    "objectID": "Lab 1/eda1.html#penguin-flipper-length-vs-mass-by-species",
+    "href": "Lab 1/eda1.html#penguin-flipper-length-vs-mass-by-species",
+    "title": "Penguins EDA",
+    "section": "Penguin Flipper Length vs Mass by Species",
+    "text": "Penguin Flipper Length vs Mass by Species\n\n\nCode\ndf %&gt;%\n  ggplot(aes(x = flipper_length_mm, y = body_mass_g, color = species)) +\n  geom_point() + \n  geom_smooth(method = \"lm\")\n\n\n`geom_smooth()` using formula = 'y ~ x'\n\n\nWarning: Removed 2 rows containing non-finite values (`stat_smooth()`).\n\n\nWarning: Removed 2 rows containing missing values (`geom_point()`)."
+  },
+  {
+    "objectID": "Lab 1/eda1.html#penguin-size-vs-mass-by-year",
+    "href": "Lab 1/eda1.html#penguin-size-vs-mass-by-year",
+    "title": "Penguins EDA",
+    "section": "Penguin Size vs Mass by Year",
+    "text": "Penguin Size vs Mass by Year\n\n\nCode\ndf %&gt;%\n  ggplot(aes(x = bill_length_mm, y = body_mass_g, color = year)) +\n  geom_point() + \n  geom_smooth(method = \"lm\")\n\n\n`geom_smooth()` using formula = 'y ~ x'\n\n\nWarning: Removed 2 rows containing non-finite values (`stat_smooth()`).\n\n\nWarning: The following aesthetics were dropped during statistical transformation: colour\nℹ This can happen when ggplot fails to infer the correct grouping structure in\n  the data.\nℹ Did you forget to specify a `group` aesthetic or to convert a numerical\n  variable into a factor?\n\n\nWarning: Removed 2 rows containing missing values (`geom_point()`)."
+  },
+  {
+    "objectID": "Lab 1/eda1.html#penguin-year-vs-mass-by-species",
+    "href": "Lab 1/eda1.html#penguin-year-vs-mass-by-species",
+    "title": "Penguins EDA",
+    "section": "Penguin Year vs Mass by Species",
+    "text": "Penguin Year vs Mass by Species\n\n\nCode\ndf %&gt;%\n  ggplot(aes(x = year, y = body_mass_g, color = species)) +\n  geom_point() \n\n\nWarning: Removed 2 rows containing missing values (`geom_point()`)."
+  },
+  {
+    "objectID": "Lab 1/eda1.html#penguin-year-vs-size-by-species",
+    "href": "Lab 1/eda1.html#penguin-year-vs-size-by-species",
+    "title": "Penguins EDA",
+    "section": "Penguin Year vs Size by Species",
+    "text": "Penguin Year vs Size by Species\n\n\nCode\ndf %&gt;%\n  ggplot(aes(x = year, y = bill_length_mm, color = species)) +\n  geom_point() \n\n\nWarning: Removed 2 rows containing missing values (`geom_point()`)."
+  },
+  {
     "objectID": "Lab 3/eda3.html",
     "href": "Lab 3/eda3.html",
     "title": "Penguins EDA",
