@@ -3,7 +3,7 @@
     "path": "~/math-378-final-project-laurenepettit/Lab 1/eda1.qmd",
     "project_path": "Lab 1/eda1.qmd",
     "type": "quarto_markdown",
-    "hash": "1176893835",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1713816474110.0,
@@ -16,14 +16,16 @@
         "Source": "Source",
         "docOutlineVisible": "0",
         "rmdVisualCollapsedChunks": "",
-        "rmdVisualModeLocation": "80:0"
+        "rmdVisualModeLocation": "524:0",
+        "cursorPosition": "37,0",
+        "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1713590941,
+    "lastKnownWriteTime": 1713996700,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1713988350975,
+    "last_content_update": 1713996700,
     "read_only": false,
     "read_only_alternatives": []
 }
