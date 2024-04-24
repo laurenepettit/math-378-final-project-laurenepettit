@@ -1,0 +1,80 @@
+---
+title: "Penguins EDA"
+format:
+  html:
+    code-fold: true
+---
+
+## Penguin Size and Mass by Sex and Species
+
+```{r}
+library(palmerpenguins)
+library(dplyr)
+library(ggplot2)
+
+df <- palmerpenguins::penguins
+```
+
+```{r}
+df %>%
+  group_by(species, sex) %>%
+  summarise(
+    across(
+      where(is.numeric), 
+      \(x) mean(x, na.rm = TRUE)
+      )
+    ) %>%
+  knitr::kable()
+```
+
+## Penguin Size vs Mass by Species
+
+```{r}
+df %>%
+  ggplot(aes(x = bill_length_mm, y = body_mass_g, color = species)) +
+  geom_point() + 
+  geom_smooth(method = "lm")
+```
+
+## Penguin Bill vs Flipper Length by Species
+
+```{r}
+df %>%
+  ggplot(aes(x = bill_length_mm, y = flipper_length_mm, color = species)) +
+  geom_point() + 
+  geom_smooth(method = "lm")
+```
+
+## Penguin Flipper Length vs Mass by Species
+
+```{r}
+df %>%
+  ggplot(aes(x = flipper_length_mm, y = body_mass_g, color = species)) +
+  geom_point() + 
+  geom_smooth(method = "lm")
+```
+
+## Penguin Size vs Mass by Year
+
+```{r}
+df %>%
+  ggplot(aes(x = bill_length_mm, y = body_mass_g, color = year)) +
+  geom_point() + 
+  geom_smooth(method = "lm")
+```
+
+## Penguin Year vs Mass by Species
+
+```{r}
+df %>%
+  ggplot(aes(x = year, y = body_mass_g, color = species)) +
+  geom_point() 
+```
+
+## Penguin Year vs Size by Species
+
+```{r}
+df %>%
+  ggplot(aes(x = year, y = bill_length_mm, color = species)) +
+  geom_point() 
+```
