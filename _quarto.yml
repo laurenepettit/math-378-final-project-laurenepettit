@@ -5,10 +5,12 @@ website:
   title: "Lauren Pettit's Math 378 Final Project"
   navbar:
     left:
-      - text: Lab 1 EDA
-        href: eda1.html
-      - text: Lab 1 Model
-        href: model1.html
+      - text: "Home"
+        href: index.qmd
+      - text: "Lab 1 EDA"
+        href: eda1.qmd
+      - text: "Lab 1 Model"
+        href: model1.qmd
         
 
 format:
