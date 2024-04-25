@@ -8,6 +8,8 @@ format:
 ## Penguin Size and Mass by Sex and Species
 
 ```{r}
+#| message: false
+#| warning: false
 library(palmerpenguins)
 library(dplyr)
 library(ggplot2)
@@ -16,6 +18,8 @@ df <- palmerpenguins::penguins
 ```
 
 ```{r}
+#| message: false
+#| warning: false
 df %>%
   group_by(species, sex) %>%
   summarise(
@@ -30,6 +34,8 @@ df %>%
 ## Penguin Size vs Mass by Species
 
 ```{r}
+#| message: false
+#| warning: false
 df %>%
   ggplot(aes(x = bill_length_mm, y = body_mass_g, color = species)) +
   geom_point() + 
@@ -39,6 +45,8 @@ df %>%
 ## Penguin Bill vs Flipper Length by Species
 
 ```{r}
+#| message: false
+#| warning: false
 df %>%
   ggplot(aes(x = bill_length_mm, y = flipper_length_mm, color = species)) +
   geom_point() + 
@@ -48,6 +56,8 @@ df %>%
 ## Penguin Flipper Length vs Mass by Species
 
 ```{r}
+#| message: false
+#| warning: false
 df %>%
   ggplot(aes(x = flipper_length_mm, y = body_mass_g, color = species)) +
   geom_point() + 
@@ -57,24 +67,40 @@ df %>%
 ## Penguin Size vs Mass by Year
 
 ```{r}
+#| message: false
+#| warning: false
 df %>%
   ggplot(aes(x = bill_length_mm, y = body_mass_g, color = year)) +
   geom_point() + 
   geom_smooth(method = "lm")
 ```
 
-## Penguin Year vs Mass by Species
+## Penguin Flipper Length vs Mass by Year
 
 ```{r}
+#| message: false
+#| warning: false
 df %>%
-  ggplot(aes(x = year, y = body_mass_g, color = species)) +
-  geom_point() 
+  ggplot(aes(x = flipper_length_mm, y = body_mass_g, color = year)) +
+  geom_point() + 
+  geom_smooth(method = "lm")
 ```
 
-## Penguin Year vs Size by Species
+## Penguin Bill vs Flipper Length by Year
 
 ```{r}
+#| message: false
+#| warning: false
 df %>%
-  ggplot(aes(x = year, y = bill_length_mm, color = species)) +
+  ggplot(aes(x = bill_length_mm, y = flipper_length_mm, color = year)) +
+  geom_point() + 
+  geom_smooth(method = "lm") 
+```
+
+```{r}
+#| message: false
+#| warning: false
+df %>%
+  ggplot(aes(x = island, y = body_mass_g, color = species)) +
   geom_point() 
 ```
