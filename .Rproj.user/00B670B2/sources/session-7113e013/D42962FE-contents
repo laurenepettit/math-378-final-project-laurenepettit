@@ -15,7 +15,7 @@ website:
 
 format:
   html:
-    theme: quartz
+    theme: vapor
     css: styles.css
     toc: true
 
