@@ -3,7 +3,7 @@
     "path": "~/math-378-final-project-laurenepettit/_quarto.yml",
     "project_path": "_quarto.yml",
     "type": "yaml",
-    "hash": "2311949739",
+    "hash": "142513020",
     "contents": "",
     "dirty": false,
     "created": 1713999647949.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "17,16",
+        "cursorPosition": "17,17",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1714002688,
+    "lastKnownWriteTime": 1714061995,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1714002688474,
+    "last_content_update": 1714061995803,
     "read_only": false,
     "read_only_alternatives": []
 }

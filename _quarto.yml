@@ -15,7 +15,7 @@ website:
 
 format:
   html:
-    theme: pulse
+    theme: cyborg #cyborg, quartz, vapor
     css: styles.css
     toc: true
 
