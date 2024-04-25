@@ -2,7 +2,7 @@
 
 On this website, you will see pages that reflect the labs from "DevOps for Data Science" by Alex Gold. You will see a tab for the Penguins EDA and a tab with the modeling for this data set. Go ahead and click on those tabs to explore. Have fun!
  
-![Funny Minions](minions.gif "You having fun while looking at my website")
+![You having fun while looking at my website](minions.gif "Funny Minions")
 
-![Project Minions](minions2.gif "Me getting this website to work")
+![Me getting this website to work](minions2.gif "Project Minions")
 
