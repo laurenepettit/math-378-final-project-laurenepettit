@@ -15,7 +15,7 @@ website:
 
 format:
   html:
-    theme: cyborg 
+    theme: quartz
     css: styles.css
     toc: true
 
