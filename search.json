@@ -247,9 +247,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome",
+    "title": "Welcome!",
     "section": "",
-    "text": "Welcome\nOn this website, you will see pages that reflect the labs from “DevOps for Data Science” by Alex Gold. You will see a tab for the Penguins EDA and a tab with the modeling for this data set. Go ahead and click on those tabs to explore. Have fun!"
+    "text": "Welcome!\nOn this website, you will see pages that reflect the labs from “DevOps for Data Science” by Alex Gold. You will see a tab for the Penguins EDA and a tab with the modeling for this data set. Go ahead and click on those tabs to explore. Have fun!\n\n\n\nFunny Minions\n\n\n\n\n\nProject Minions"
   },
   {
     "objectID": "Lab 3/eda3.html",
