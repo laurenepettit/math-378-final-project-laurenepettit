@@ -186,7 +186,14 @@
     "href": "web-eda.html#penguin-bill-vs-flipper-length-by-year",
     "title": "Penguins EDA",
     "section": "Penguin Bill vs Flipper Length by Year",
-    "text": "Penguin Bill vs Flipper Length by Year\n\n\nCode\ndf %&gt;%\n  ggplot(aes(x = bill_length_mm, y = flipper_length_mm, color = year)) +\n  geom_point() + \n  geom_smooth(method = \"lm\") \n\n\n\n\n\n\n\n\n\n\n\nCode\ndf %&gt;%\n  ggplot(aes(x = island, y = body_mass_g, color = species)) +\n  geom_point()"
+    "text": "Penguin Bill vs Flipper Length by Year\n\n\nCode\ndf %&gt;%\n  ggplot(aes(x = bill_length_mm, y = flipper_length_mm, color = year)) +\n  geom_point() + \n  geom_smooth(method = \"lm\")"
+  },
+  {
+    "objectID": "web-eda.html#penguin-island-vs-mass-by-species",
+    "href": "web-eda.html#penguin-island-vs-mass-by-species",
+    "title": "Penguins EDA",
+    "section": "Penguin Island vs Mass by Species",
+    "text": "Penguin Island vs Mass by Species\n\n\nCode\ndf %&gt;%\n  ggplot(aes(x = island, y = body_mass_g, color = species)) +\n  geom_point()"
   },
   {
     "objectID": "web-model.html",
